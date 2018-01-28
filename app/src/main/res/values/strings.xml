@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Action_Bar</string>
+    <string name="news" tools:ignore="StringEscaping">
+        Private and secure communications are fundamental human needs. In particular, with the exponential growth of Internet use and e-commerce, it is of paramount importance to establish a secure network with global protection of data. Traditional public key cryptography usually relies on the computational intractability of certain mathematical functions.
+        In contrast, quantum key distribution (QKD) uses individual light quanta (single photons) in quantum superposition states to guarantee unconditional security between distant parties. Previously, the quantum communication distance had been limited to a few hundred kilometers, due to the optical channel losses of fibers or terrestrial free space.
+        A promising solution to this problem exploits satellite and space-based link, which can conveniently connect two remote points on the Earth with greatly reduced channel loss because most of the photons\' propagation path is in empty space with negligible loss and decoherence.
+
+A cross-disciplinary multi-institutional team of scientists from the Chinese Academy of Sciences, led by Professor Jian-Wei Pan, has spent more than ten years developing a sophisticated satellite, Micius, dedicated to quantum science experiments, which was launched on August 2016 and orbits at an altitude of ~500 km. Five ground stations are built in China to cooperate with the Micius satellite, located in Xinglong (near Beijing), Nanshan (near Urumqi), Delingha (37 degrees 22'44.43''N, 97 degrees 43'37.01"E), Lijiang (26 degrees 41'38.15''N, 100 degrees 1'45.55''E), and Ngari in Tibet (32 degrees 19'30.07''N, 80 degrees 1'34.18''E).
+
+Within a year after the launch, three key milestones for a global-scale quantum internet have been achieved: satellite-to-ground decoy-state QKD with kHz rate over a distance of ~1200 km (Liao et al. 2017, Nature 549, 43); satellite-based entanglement distribution to two locations on the Earth separated by ~1200 km and Bell test (Yin et al. 2017, Science 356, 1140), and ground-to-satellite quantum teleportation (Ren et al. 2017, Nature 549, 70). The effective link efficiencies in the satellite-based QKD were measured to be ~20 orders of magnitudes larger than direct transmission through optical fibers at the same length of 1200 km. The three experiments are the first steps towards a global space-based quantum internet.
+
+The satellite-based QKD has now been combined with metropolitan quantum networks, in which fibers are used to efficiently and conveniently connect numerous users inside a city over a distance scale of ~100 km. For example, the Xinglong station has now been connected to the metropolitan multi-node quantum network in Beijing via optical fibers.
+
+Very recently, the largest fiber-based quantum communication backbone has been built in China, also by Professor Pan's team, linking Beijing to Shanghai (going through Jinan and Hefei, and 32 trustful relays) with a fiber length of 2000 km. The backbone is being tested for real-world applications by government, banks, securities and insurance companies.
+
+The Micius satellite can be further exploited as a trustful relay to conveniently connect any two points on Earth for high-security key exchange. To further demonstrate the Micius satellite as a robust platform for quantum key distribution with different ground stations on Earth, QKD from the Micius satellite to Graz ground station near Vienna has also been performed successfully this June in collaboration with Professor Anton Zeilinger of Austrian Academy of Sciences.
+
+The satellite thus establishes a secure key between itself and, say, Xinglong, and another key between itself and, say, Graz. Then, upon request from the ground command stations, Micius acts as a trusted relay.
+
+It performs bitwise exclusive OR operations between the two keys and relays the result to one of the ground stations. That way, a secret key is created between China and Europe at locations separated by 7600 km on Earth. This work points towards an efficient solution for an ultra-long-distance global quantum network.
+
+A picture of Micius (with a size of 5.34 kB) was transmitted from Beijing to Vienna, and a picture of Schrodinger (with a size of 4.9 kB) from Vienna to Beijing, using approximately 80 kbit secure quantum key for one-time-pad encoding.
+
+An intercontinental videoconference was also held between the Chinese Academy of Sciences and the Austria Academy of Sciences, employing the Advanced Encryption Standard (AES)-128 protocol that refreshed the 128-bit seed keys every second. The videoconference lasted for 75 min with a total data transmission of ~2 GB, which included ?560 kbit of the quantum key exchanged between Austria and China.
+
+from: "http://www.spacedaily.com/reports/Real_world_intercontinental_quantum_communications_enabled_by_the_Micius_satellite_999.html"
+    </string>
+</resources>
